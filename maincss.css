@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2ebeb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #263e4f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #3498db; 
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #3498db; 
+    margin-bottom: 15px;
+}
+
+.hobby {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hobby h3 {
+    color: #3498db; 
+    margin-bottom: 10px;
+}
+
+.hobby p {
+    color: #666;
+}
+
+footer {
+    background-color: #555; 
+    color: #fff; 
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* New style for the "About" section */
+#about {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
